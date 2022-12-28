@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user could &quot;back to product&quot; after clicking the product items title</description>
+   <name>TC-HP-05_Back to product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bac944c6-b0c2-4545-8582-3c3c5211991b</testCaseGuid>
+</TestCaseEntity>

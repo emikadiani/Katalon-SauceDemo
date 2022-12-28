@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the messages for invalid login</description>
+   <name>1--TC-LI-06_Pop up visibility</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca1fd7b7-16a6-4c24-b31c-727bac176b28</testCaseGuid>
+</TestCaseEntity>

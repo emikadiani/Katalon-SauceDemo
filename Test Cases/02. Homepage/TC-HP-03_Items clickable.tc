@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the items are clickable, and the links lead to corresponding product pages</description>
+   <name>TC-HP-03_Items clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb359e42-0636-425f-addc-9d60dec9dfa9</testCaseGuid>
+</TestCaseEntity>

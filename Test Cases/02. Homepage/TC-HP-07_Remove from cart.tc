@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user could remove product from shopping cart</description>
+   <name>TC-HP-07_Remove from cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f979b0f4-5710-4783-a47a-66053827a56d</testCaseGuid>
+</TestCaseEntity>
