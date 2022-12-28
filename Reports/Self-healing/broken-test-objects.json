@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack",
+      "brokenLocator": "//a[@id\u003d\u0027item_4_title_link\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$29.99\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/02. Homepage/Page_Swag Labs/button_Add to cart",
+      "brokenLocator": "//button[@id\u003d\u0027add-to-cart-sauce-labs-backpack\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div/div[2]/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/02. Homepage/Page_Swag Labs/button_Add to cart_idRelative.png"
+    }
+  ]
 }
