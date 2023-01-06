@@ -17,7 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('01. Login/TC-LI-03_Invalid credential'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('02. Homepage/TC-HP-06_Add to cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('', false)
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/button_Atc bike light'))
+
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/button_Atc Labs Bolt t-shirt'))
+
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/icon_shopping_cart'))
+
+WebUI.click(findTestObject('03. Shopping Cart/Page_Swag Labs/button_Continue Shopping'))
+
+WebUI.verifyElementPresent(findTestObject('02. Homepage/Page_Swag Labs/Sign_Products'), 0)
 

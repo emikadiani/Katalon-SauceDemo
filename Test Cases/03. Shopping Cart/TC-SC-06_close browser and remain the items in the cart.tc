@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user closes the tab with a shopping cart, the items should remain in the cart</description>
+   <name>TC-SC-06_close browser and remain the items in the cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfbd1f4f-4d40-4273-be94-00a838a96234</testCaseGuid>
+</TestCaseEntity>

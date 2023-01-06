@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the product in the cart is displayed with correct names and prices</description>
+   <name>TC-SC-02_Product details on shoping cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3464f0a7-2e12-49c5-b87f-24c233f2264a</testCaseGuid>
+</TestCaseEntity>

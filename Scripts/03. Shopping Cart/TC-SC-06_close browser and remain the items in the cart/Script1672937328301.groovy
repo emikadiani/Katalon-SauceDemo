@@ -17,9 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('02. Homepage/TC-HP-03_Items clickable'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/button_Back to products'))
+WebUI.navigateToUrl('https://www.saucedemo.com')
 
-WebUI.verifyElementPresent(findTestObject('02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack product title'), 0)
+WebUI.setText(findTestObject('01. Login/Page_Swag Labs/input_user-name'), 'standard_user')
+
+WebUI.setText(findTestObject('01. Login/Page_Swag Labs/input_password'), 'secret_sauce')
+
+WebUI.click(findTestObject('01. Login/Page_Swag Labs/login-button'))
+
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/button_Add to cart'))
+
+WebUI.verifyElementText(findTestObject('02. Homepage/Page_Swag Labs/logo_atc'), '1')
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.saucedemo.com')
+
+WebUI.setText(findTestObject('01. Login/Page_Swag Labs/input_user-name'), 'standard_user')
+
+WebUI.setText(findTestObject('01. Login/Page_Swag Labs/input_password'), 'secret_sauce')
+
+WebUI.click(findTestObject('01. Login/Page_Swag Labs/login-button'))
+
+WebUI.verifyElementText(findTestObject('02. Homepage/Page_Swag Labs/logo_atc'), '1')
 

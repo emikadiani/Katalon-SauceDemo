@@ -17,9 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('02. Homepage/TC-HP-03_Items clickable'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('02. Homepage/TC-HP-06_Add to cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/button_Back to products'))
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/button_Atc bike light'))
 
-WebUI.verifyElementPresent(findTestObject('02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack product title'), 0)
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/button_Atc Labs Bolt t-shirt'))
+
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/icon_shopping_cart'))
+
+WebUI.click(findTestObject('03. Shopping Cart/Page_Swag Labs/button_Remove_backpack'))
+
+WebUI.click(findTestObject('03. Shopping Cart/Page_Swag Labs/button_Remove_bike light'))
+
+WebUI.click(findTestObject('03. Shopping Cart/Page_Swag Labs/button_Remove_bolt tshirt'))
+
+WebUI.click(findTestObject('03. Shopping Cart/Page_Swag Labs/button_Checkout'))
 

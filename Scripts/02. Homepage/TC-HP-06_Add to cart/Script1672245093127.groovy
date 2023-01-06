@@ -23,3 +23,5 @@ WebUI.verifyElementClickable(findTestObject('02. Homepage/Page_Swag Labs/button_
 
 WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/button_Add to cart'))
 
+WebUI.verifyElementText(findTestObject('02. Homepage/Page_Swag Labs/logo_atc'), '1')
+

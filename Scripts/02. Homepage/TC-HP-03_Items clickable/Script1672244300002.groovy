@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('01. Login/TC-LI-01_Valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementClickable(findTestObject('02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack'))
+WebUI.verifyElementClickable(findTestObject('02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack product title'))
 
-WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack'))
+WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack product title'))
 
-WebUI.verifyElementPresent(findTestObject('03. Shopping Cart/Page_Swag Labs/div_Back to products'), 0)
+WebUI.verifyElementPresent(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/div_Back to products'), 0)
 

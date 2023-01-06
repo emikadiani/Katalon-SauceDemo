@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user could continue shopping before checking out, the items should remain in the cart</description>
+   <name>TC-SC-07_continue shopping button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8aec246-d41b-48f7-bee0-c2d376526f3e</testCaseGuid>
+</TestCaseEntity>

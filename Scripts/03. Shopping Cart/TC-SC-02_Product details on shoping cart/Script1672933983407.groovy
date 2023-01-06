@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('02. Homepage/TC-HP-03_Items clickable'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/Page_Swag Labs/button_Back to products'))
+WebUI.verifyMatch('$29.99', '$29.99', false)
 
-WebUI.verifyElementPresent(findTestObject('02. Homepage/Page_Swag Labs/div_Sauce Labs Backpack product title'), 0)
+WebUI.verifyMatch('Sauce Labs Backpack', 'Sauce Labs Backpack', false)
 

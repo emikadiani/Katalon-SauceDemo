@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('02. Homepage/TC-HP-06_Add to cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('02. Homepage/Page_Swag Labs/button_Remove'), 0)
+
 WebUI.verifyElementClickable(findTestObject('02. Homepage/Page_Swag Labs/button_Remove'))
 
 WebUI.click(findTestObject('02. Homepage/Page_Swag Labs/button_Remove'))

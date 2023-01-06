@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user could checkout with some items in the cart</description>
+   <name>TC-SC-08_Checkout button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76f368ef-98ff-419d-9822-f33b41023042</testCaseGuid>
+</TestCaseEntity>

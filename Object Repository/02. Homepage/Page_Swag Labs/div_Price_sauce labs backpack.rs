@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_29.99</name>
+   <name>div_Price_sauce labs backpack</name>
    <tag></tag>
    <elementGuidId>339f811e-e904-4d51-b6b3-fe47f9ca4476</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.inventory_item_price</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='inventory_container']/div/div/div[2]/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.inventory_item_price</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

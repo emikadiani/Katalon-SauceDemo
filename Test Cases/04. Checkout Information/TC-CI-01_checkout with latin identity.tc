@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user could checkout with latin First Name, Last Name and Zip</description>
+   <name>TC-CI-01_checkout with latin identity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7eb20c0-644b-4115-8072-86adf1677090</testCaseGuid>
+</TestCaseEntity>
