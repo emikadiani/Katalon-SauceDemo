@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user couldn't checkout by leaving Zip/Postal Code empty</description>
+   <name>TC-CI-05_Blank ZIP or Postal Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d1e0d26-80f3-4cd2-b804-4c5ce134a48c</testCaseGuid>
+</TestCaseEntity>

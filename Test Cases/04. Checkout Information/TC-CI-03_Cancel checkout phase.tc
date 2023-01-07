@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user could cancel the checkout phase</description>
+   <name>TC-CI-03_Cancel checkout phase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2969e3f0-0965-4d16-bc1f-917a226f7844</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if a user couldn't finish the checkout without an item in the cart</description>
+   <name>TC-CO-12_Finish Checkout without items on cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e645965e-44eb-4af0-b74e-c3fcd18d7bfd</testCaseGuid>
+</TestCaseEntity>

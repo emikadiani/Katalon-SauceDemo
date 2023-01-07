@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the 'X or Erase' button after error: name or postal code required pop-up is available to erase the former entered text</description>
+   <name>TC-CI-06_X or Erase Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8ab3a29-f5ee-4102-8a93-3e2aed4b3871</testCaseGuid>
+</TestCaseEntity>
