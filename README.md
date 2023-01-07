@@ -9,11 +9,22 @@ It has :
 with 68.48% test passes
 and 31.52% test failed
 
-## Bugs Finded
+## Bugs Found
 1. X or Erase button should be erase the former entered text
 2. Can't added same product to the cart
 3. User can't choose the variation of the product like size or color
+4. User couldn't change the quantity of the product in the cart directly by "+" or "-" button or change manually by typing the quantity
+5. Total price isn't appear when user add or remove the items to the cart on Shopping Cart page
+6. User could checkout with no items in the cart
+7. X or erase button on Checkout: Information page isn't working. It should be erase the former entered text
+8. User couldn't change the payment method
+9. User address or shipping address isn't stated
+
+
+## Errors Found
+1. User account isn't blocked or suspended for a specific period of time after 3 or 5 unsuccessful attempts of login
 
 ## Recommendation
 1. Forgot Password button should be placed behind or next to "Login button" and direct user to reset the password
 2. Show/Hide Password functionality should be able to show or hide the password to make sure that the user is correctly typing the password
+3. Add a "+" and "-" button on shopping cart, thus the user could change the quantity of the product
