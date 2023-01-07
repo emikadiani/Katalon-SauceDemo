@@ -1,8 +1,10 @@
 # Katalon-Saucedemo
 
-An automation testing practice after the learning and basic understanding related to Katalon Studio from [Udemy] (https://www.udemy.com/course/testerbootcamp/) and [YouTube] (https://www.youtube.com/watch?v=7-oueBt1yhQ&list=PLhW3qG5bs-L-yy1HtdxKcp-blmG5qeWgg) concerning on UI Automation.
+An automation testing practice after the learning and basic understanding related to Katalon Studio from [Udemy](https://www.udemy.com/course/testerbootcamp/) and [YouTube](https://www.youtube.com/watch?v=7-oueBt1yhQ&list=PLhW3qG5bs-L-yy1HtdxKcp-blmG5qeWgg) concerning on UI Automation.
 
-Please refer to this [Test Case on Excel] (https://docs.google.com/spreadsheets/d/10S85yBWPklohVkli4r-FxeJplkhSJw0lWHvSv8-EN4k/edit#gid=0) to find out all of the test cases.
+Please refer to this [Test Case on Excel](https://docs.google.com/spreadsheets/d/10S85yBWPklohVkli4r-FxeJplkhSJw0lWHvSv8-EN4k/edit#gid=0) to find out all of the test cases.
+
+This also been updated on [Jira](https://eadiani.atlassian.net/jira/software/c/projects/PSD/boards/7/backlog?atlOrigin=eyJpIjoiOTY2ZGNkZjA5NWZmNGNkYThiYWUyNTJiNGU4MmE1N2UiLCJwIjoiaiJ9)
 
 It has :
 58 total of test cases
