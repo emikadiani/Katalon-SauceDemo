@@ -1,6 +1,6 @@
 # Katalon-Saucedemo
 
-An automation testing practice after the learning and basic understanding related to Katalon Studio from [Udemy](https://www.udemy.com/course/testerbootcamp/) and [YouTube](https://www.youtube.com/watch?v=7-oueBt1yhQ&list=PLhW3qG5bs-L-yy1HtdxKcp-blmG5qeWgg) concerning on UI Automation.
+An automation testing practice after the learning and basic understanding related to Katalon Studio from [Udemy](https://www.udemy.com/course/testerbootcamp/) and [YouTube](https://www.youtube.com/watch?v=7-oueBt1yhQ&list=PLhW3qG5bs-L-yy1HtdxKcp-blmG5qeWgg) concerning on UI Automation for a testing on [SwagLabs](https://www.saucedemo.com/) 
 
 Please refer to this [Test Case on Excel](https://docs.google.com/spreadsheets/d/10S85yBWPklohVkli4r-FxeJplkhSJw0lWHvSv8-EN4k/edit#gid=0) to find out all of the test cases.
 
