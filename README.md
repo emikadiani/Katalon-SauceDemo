@@ -11,7 +11,7 @@ It has :
 with 68.48% test passes
 and 31.52% test failed
 
-## Bugs Found
+## Defect Found
 1. X or Erase button should be erase the former entered text
 2. Can't added same product to the cart
 3. User can't choose the variation of the product like size or color
@@ -23,7 +23,7 @@ and 31.52% test failed
 9. User address or shipping address isn't stated
 
 
-## Errors Found
+## Failure Found
 1. User account isn't blocked or suspended for a specific period of time after 3 or 5 unsuccessful attempts of login
 
 ## Recommendation
